@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit- box-sizing: border-box;
+	-moz- box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+#social{
+	position: fixed;
+	left: 0;
+	top:200px;
+	z-index: 2000;
+}
+
+#social ul{
+	list-style: none;
+
+}
+
+#social ul li a{
+	display: inline-block;
+	color: #fff;
+	background: #f0b429;
+	padding: 20px 20px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+
+}
+
+#social ul li.icon-twitter{
+	background:  #000;
+}
+
+#social ul li.icon-fecebook2 {
+
+	background: #3b5998;
+}
+
+#social ul li a:hover{
+
+	padding: 10px 30px;
+	background: #005883;
+}

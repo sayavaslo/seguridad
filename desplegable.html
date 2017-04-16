@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>desplegable</title>
+	<style type="text/css">
+		*{
+
+			padding: 0px;
+			margin: 0px;
+		}
+
+
+		#header{
+
+			margin: auto;
+			width: 500px;
+			font-family: arial, helvetica;
+		}
+
+		ul,ol{
+			list-style: none;
+		}
+
+		.nav li a{
+			background-color: #000;
+			color: #fff;
+			text-decoration: none;
+			padding: 10px 15px;
+			display: block;
+		}
+
+		.nav li a:hover {
+			border-color: #434343;
+		}
+
+		.nav > li{
+			float: left;
+
+		}
+
+		.nav li ul{
+			display:none;
+			position: absolute;
+			min-width: 140px; 
+		}
+		.nav li:hover >ul{
+			display: block;
+		}
+
+
+
+	</style>
+
+</head>
+
+<body>
+
+<div id="header">
+
+<ul class="nav"> 
+	<li> <a href="">inicio</a> </li>
+
+		<li> <a href="">servicios </a>
+			<ul>
+
+				<li> <a href="">submenu </a></li>
+
+ 				<li> <a href="">subme2 </a></li>
+
+ 				<li> <a href="">submenu3 </a></li>
+
+ 				<li> <a href="">submenu4 </a></li>
+
+ 			</ul>	
+
+		</li>
+
+			<li> <a href="">acerca de</a>	
+
+ 				<ul>
+ 	
+ 					<li> <a href="">submenu </a></li>
+
+ 					<li> <a href="">subme2 </a></li>
+
+ 					<li> <a href="">submenu3 </a></li>
+
+ 					<li> <a href="">submenu4 </a></li>
+
+   				</ul>
+
+			</li>
+
+				<li> <a href="">contacto</a>
+
+					<ul>
+
+						<li> <a href="">submenu </a></li>
+
+ 						<li> <a href="">subme2</a></li>
+
+ 						<li> <a href="">submenu3 </a></li>
+
+ 						<li> <a href="">submenu4 </a></li>
+
+ 					 </u>
+
+				</li>
+</ul>
+
+ </div>
+</body>
+</html>
